@@ -55,6 +55,7 @@ public class FirstAuto {
 
         for (int i=0;i<Splittedstring.length;i++){
             System.out.println(Splittedstring[i]);
+            System.out.println("Splitted successfully");
         }
 
         System.out.println("Splitted successfully");
