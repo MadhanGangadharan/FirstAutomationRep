@@ -11,9 +11,9 @@ public class practiselocator {
         System.out.println("Hello");
         WebDriver a =new ChromeDriver();
         a.get("https://rahulshettyacademy.com/locatorspractice/");
-        a.findElement(By.id("inputUsername")).sendKeys("Madhan");
-        a.findElement(By.name("inputPassword")).sendKeys("12345");
-        a.findElement(By.className("signInBtn")).click();
+//        a.findElement(By.id("inputUsername")).sendKeys("Madhan");
+//        a.findElement(By.name("inputPassword")).sendKeys("12345");
+//        a.findElement(By.className("signInBtn")).click();
 
     }
 }
