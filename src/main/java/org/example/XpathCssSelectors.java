@@ -32,5 +32,8 @@ public class XpathCssSelectors {
         Thread.sleep(5000);
         driver.findElement(By.className("signInBtn")).click();
         System.out.println(driver.getTitle());
+        //driver.findElement(By.cssSelector("input[type*='pass']")).sendKeys("rahulshettyacademy"); //("input[type^='pass']") //("input[type$='pass']")
+        //driver.findElement(By.id("chkboxOne")).click();
+        //driver.findElement(By.xpath("//button[contains(@class,'submit')]")).click(); ////[starts-with(@class, 'gsc')]// //[ends-with(@class, 'put')].
     }
 }
