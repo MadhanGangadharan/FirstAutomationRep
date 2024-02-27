@@ -1,10 +1,12 @@
 package org.example;
 
-import java.util.ArrayList;
-import java.util.List;
+//import java.util.ArrayList;
+//import java.util.List;
+
+import java.util.Arrays;
 
 public class FirstAuto {
-    public static void main(String[] args) throws InterruptedException {
+    public static void main(String[] args) {
         //WebDriver Driver =new ChromeDriver();
 //        Driver.get("https://www.youtube.com/");  //dry - dont reapeat yourself
 //        Driver.findElement(By.className("whsOnd zHQkBf"));
@@ -47,10 +49,17 @@ public class FirstAuto {
 //        }
 
 //        System.out.println("Splitted successfully");
-            System.out.println("Testing Branching");
+//            System.out.println("Testing Branching");
+
+        String name = "How are  you 'Good' Morning ";
+
+        String[] splitstring = name.split("'");
+        System.out.println(Arrays.toString(splitstring));
+        System.out.println(Arrays.deepToString(splitstring));
+        for (String a : splitstring) {
+            System.out.println(a.trim());
 
 
-
-
+        }
     }
 }
