@@ -9,13 +9,13 @@ public class ParenttochildLocators {
 
     public static void main(String[] args){
     WebDriver driver =new ChromeDriver();
-//    driver.get("https://rahulshettyacademy.com/AutomationPractice/");
-//    System.out.println(driver.findElement(By.xpath("//header/div/button[1]/following-sibling::button[1]")).getText());
-//        System.out.println(driver.findElement(By.xpath("//header/div/button[1]/parent::div/button[2]")).getText());//Child to parent
-        driver.manage().window().maximize();
+    driver.get("https://rahulshettyacademy.com/AutomationPractice/");
+    System.out.println(driver.findElement(By.xpath("//header/div/button[1]/following-sibling::button[1]")).getText());
+        System.out.println(driver.findElement(By.xpath("//header/div/button[1]/parent::div/button[2]")).getText());//Child to parent
+       /* driver.manage().window().maximize();
         driver.get("https://www.google.com/");
         driver.navigate().to("https://rahulshettyacademy.com/locatorspractice/");
-        driver.navigate().back();
+        driver.navigate().back();*/
 
     }
 
