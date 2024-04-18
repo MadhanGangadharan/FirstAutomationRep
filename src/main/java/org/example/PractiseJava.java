@@ -13,8 +13,44 @@ public class PractiseJava {
     public static void main(String[] args) {
 
 
+
     }
 }
+
+    /* //find the duplicates in a string and print its count
+        String word="malayalam";
+        HashMap<Character,Integer> combination = new HashMap<Character, Integer>();
+
+        for (int i=0;i<word.length();i++){
+                if(combination.containsKey(word.charAt(i))){
+                    combination.put(word.charAt(i),combination.get(word.charAt(i))+1);
+                } else {
+                    combination.put(word.charAt(i),1);
+                }
+            }
+        for (Character car:combination.keySet()){
+            if (combination.get(car)>1) {
+                System.out.println("Characters " + car + " Counts " + combination.get(car));
+            }
+        }*/
+
+/*    //find duplicates elements in an array
+        int[] numbers={9,1,2,9,4,6,3,1,2,2};
+        HashSet<Integer> duplicatenumbers =new HashSet<Integer>();
+        int numberlength = numbers.length;
+        for(int i=0;i< numberlength;i++){
+            for(int j=i+1;j<numberlength;j++){
+                if (numbers[i]==numbers[j]){
+                    duplicatenumbers.add(numbers[i]);
+
+                }
+            }
+        }
+       for (int i:duplicatenumbers){
+           System.out.println(i);
+       }*/
+
+//Program to reverse the words in a string
 /*public class PractiseJava {
     ArrayList<String> reversedString= new ArrayList<>();
 
